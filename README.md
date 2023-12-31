@@ -72,7 +72,7 @@ Pour configurer Chat-Apprentissage, suivez ces étapes :
 
 ### Configuration
 
-Configurez le client en éditant le fichier `.env` dans le répertoire public. Assurez-vous que tous les points de terminaison API nécessaires et autres paramètres pertinents sont correctement configurés.
+Configurez le client en éditant le fichier `.env` dans le répertoire public. 
 
 ## Utilisation
 
