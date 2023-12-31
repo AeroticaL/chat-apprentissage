@@ -1,87 +1,87 @@
 
 # Chat-Apprentissage
 
-Welcome to Chat-Apprentissage, an interactive chat application designed to facilitate efficient and engaging communication.
+Bienvenue dans Chat-Apprentissage, une application de chat interactive conçue pour faciliter une communication efficace et engageante.
 
-## Getting Started
+## Pour Commencer
 
-These instructions will guide you through the setup process to get Chat-Apprentissage running on your local machine for development and testing purposes.
+Ces instructions vous guideront à travers le processus de configuration pour exécuter Chat-Apprentissage sur votre machine locale pour le développement et les tests.
 
-### Prerequisites
+### Prérequis
 
-Before you begin, ensure you have the following installed:
+Avant de commencer, assurez-vous d'avoir installé :
 - [Node.js](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
 
 ### Installation
 
-To set up Chat-Apprentissage, follow these steps:
+Pour configurer Chat-Apprentissage, suivez ces étapes :
 
-1. **Clone the Repository**
+1. **Cloner le dépôt**
 
    ```bash
    git clone https://github.com/AeroticaL/chat-apprentissage.git
    cd chat-apprentissage
    ```
 
-2. **Server Setup**
+2. **Configuration du Serveur**
 
-   Navigate to the server directory:
+   Naviguez vers le répertoire du serveur :
 
    ```bash
    cd server
    ```
 
-   Install server dependencies:
+   Installez les dépendances du serveur :
 
    ```bash
    yarn
    ```
 
-   Start the server:
+   Démarrez le serveur :
 
    ```bash
    yarn start
    ```
 
-   After installation, configure your server settings. This typically involves setting up environment variables, database connections, and other necessary services.
+   Après l'installation, configurez les paramètres de votre serveur. Cela implique généralement la configuration des variables d'environnement, des connexions à la base de données et d'autres services nécessaires.
 
-   Make sure to review and edit the `.env` file located in the server directory to match your local or production environment settings.
+   Assurez-vous de revoir et d'éditer le fichier `.env` situé dans le répertoire du serveur pour correspondre à vos paramètres d'environnement locaux ou de production.
 
-3. **Client Setup**
+3. **Configuration du Client**
 
-   In a separate terminal window, navigate to the public (client) directory from the root of the project:
+   Dans une fenêtre de terminal séparée, naviguez vers le répertoire public (client) depuis la racine du projet :
 
    ```bash
    cd ../public
    ```
 
-   Install client dependencies:
+   Installez les dépendances du client :
 
    ```bash
    yarn
    ```
 
-   Start the client:
+   Démarrez le client :
 
    ```bash
    yarn start
    ```
 
-   The client interface should now be accessible through your web browser. By default, it is usually available at `http://localhost:3000`, but this can vary based on your setup.
+   L'interface client devrait maintenant être accessible via votre navigateur Web. Par défaut, elle est généralement disponible à `http://localhost:3000`, mais cela peut varier en fonction de votre configuration.
 
 ### Configuration
 
-Configure the client by editing the `.env` file in the public directory. Ensure that all necessary API endpoints and other relevant settings are correctly set up.
+Configurez le client en éditant le fichier `.env` dans le répertoire public. Assurez-vous que tous les points de terminaison API nécessaires et autres paramètres pertinents sont correctement configurés.
 
-## Usage
+## Utilisation
 
-With both the server and client running, access the chat interface through your web browser. The default URL for the client is typically `http://localhost:3000`. Start engaging with users and enjoy the features of Chat-Apprentissage!
+Avec le serveur et le client en cours d'exécution, accédez à l'interface de chat via votre navigateur Web. L'URL par défaut pour le client est généralement `http://localhost:3000`. Commencez à interagir avec les utilisateurs et profitez des fonctionnalités de Chat-Apprentissage !
 
-## Contributing
+## Contribuer
 
-We appreciate contributions of all forms to Chat-Apprentissage. If you have suggestions for improvement, bug reports, or new features, feel free to contribute. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on contributing.
+Nous apprécions les contributions sous toutes leurs formes à Chat-Apprentissage. Si vous avez des suggestions d'amélioration, des rapports de bugs ou de nouvelles fonctionnalités, n'hésitez pas à contribuer. Veuillez lire notre [CONTRIBUTING.md](CONTRIBUTING.md) pour les lignes directrices sur la contribution.
 
-## License
+## Licence
 
-This project is licensed under the [MIT License](LICENSE.md). You are free to use, modify, and distribute it under the terms of the MIT License.
+Ce projet est sous licence [MIT License](LICENSE.md). Vous êtes libre de l'utiliser, de le modifier et de le distribuer selon les termes de la licence MIT.
